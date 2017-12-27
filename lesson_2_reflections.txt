@@ -7,3 +7,21 @@ The staging area is an intermediate stage between the working directory
 and the repository. It provides the user with more control as the user
 can choose which files to commit and which not to.
 
+How can you use the staging area to make sure you have one commit per logical change?
+You can add the files that come under a single logical change and skip
+the files that don't. You can manage which files to commit and which not
+to.
+
+What are some situations when branches would be helpful in keeping your history organised? How would branches help?
+Branches can be extremely helpful for experimentation and collaboration
+especially when you don't want the main code to break.
+
+How to diagrams help you visualize the branch structure?
+A good graphical represenatation of the branch structure and reach-
+ability of each branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+All the commits from the "new-feature" branch can be accessed
+by the main (master) branch. The changes are merged into the main
+branch of the code. The new commit after the merge has two parents.
+
